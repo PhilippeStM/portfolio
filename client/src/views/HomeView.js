@@ -5,8 +5,6 @@ import NavBar from '../components/navBar/NavBar';
 const HomeView = () => {
 
 
-
-
     return (
 
         <section>
