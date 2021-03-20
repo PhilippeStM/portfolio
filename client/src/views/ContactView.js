@@ -1,4 +1,5 @@
 import React from 'react';
+import NavBar from '../components/navBar/NavBar';
 
 const ContactView = () => {
 
@@ -6,7 +7,11 @@ const ContactView = () => {
 
 
     return (
-        <h1>this is the contact view.</h1>
+        <section>
+            <NavBar />
+            <h1>this is the contact view.</h1>
+        </section>
+
     )
 }
 

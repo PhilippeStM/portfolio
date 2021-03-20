@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../components/navBar/NavBar';
-import styles from '../styles/HomeView.module.css';
+// import styles from '../styles/HomeView.module.css';
 
 const HomeView = () => {
 
@@ -9,10 +9,10 @@ const HomeView = () => {
 
     return (
 
-        <center className={styles.wrapper}>
+        <section>
             <NavBar />
             <h1>this is the home page view.</h1>
-        </center>
+        </section>
 
     )
 }

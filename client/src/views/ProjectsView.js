@@ -1,4 +1,5 @@
 import React from 'react';
+import NavBar from '../components/navBar/NavBar';
 
 const ProjectsView = () => {
 
@@ -6,7 +7,11 @@ const ProjectsView = () => {
 
 
     return (
-        <h1>this is the projects view.</h1>
+        <section>
+            <NavBar />
+            <h1>this is the projects view.</h1>
+        </section>
+
     )
 }
 

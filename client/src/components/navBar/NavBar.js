@@ -1,11 +1,7 @@
 import React from 'react';
 import Logo from '../../images/logo.png';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom";
 import styles from '../../styles/NavBar.module.css';
 
 const NavBar = () => {
@@ -14,7 +10,7 @@ const NavBar = () => {
 
     return (
         <section className={styles.wrapper}>
-            <img src={Logo} className={styles.logo}></img>
+            <img src={Logo} className={styles.logo} alt="logo"></img>
             <Link to="/" className={styles.link}>Home</Link>
             <Link to="/projects" className={styles.link}>Projects</Link>
             <Link to="/experience" className={styles.link}>Experience</Link>
