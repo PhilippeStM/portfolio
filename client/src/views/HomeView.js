@@ -1,16 +1,19 @@
 import React from 'react';
 import NavBar from '../components/navBar/NavBar';
-// import styles from '../styles/HomeView.module.css';
+import styles from '../styles/HomeView.module.css';
+import Profile from '../images/philippe-pic.jpg';
 
 const HomeView = () => {
 
 
     return (
 
-        <section>
-            <NavBar />
-            <h1>this is the home page view.</h1>
-        </section>
+        <main>
+        <NavBar />
+            <section className={styles.blackBar}>
+                <img src={Profile} alt="My profile" className={styles.profilePic}></img>
+            </section>
+        </main>
 
     )
 }

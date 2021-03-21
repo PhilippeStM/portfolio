@@ -8,7 +8,7 @@ const ContactView = () => {
 
     return (
         <section>
-            <NavBar />
+            <NavBar/>
             <h1>this is the contact view.</h1>
         </section>
 
