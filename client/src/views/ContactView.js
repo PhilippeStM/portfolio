@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../components/navBar/NavBar';
+import NavBarContact from '../components/navBar/NavBarContact';
 
 const ContactView = () => {
 
@@ -8,7 +8,7 @@ const ContactView = () => {
 
     return (
         <section>
-            <NavBar/>
+            <NavBarContact />
             <h1>this is the contact view.</h1>
         </section>
 

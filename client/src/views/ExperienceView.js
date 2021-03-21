@@ -1,14 +1,11 @@
 import React from 'react';
-import NavBar from '../components/navBar/NavBar';
+import NavBarExperience from '../components/navBar/NavBarExperience';
 
 const ExperienceView = () => {
 
-
-
-
     return (
         <section>
-            <NavBar />
+            <NavBarExperience />
             <h1>this is the experience view.</h1>
         </section>
 
