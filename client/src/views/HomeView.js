@@ -1,7 +1,9 @@
 import React from 'react';
 import NavBarHome from '../components/navBar/NavBarHome';
+import SkillsLogos from '../components/homePage/SkillsLogos';
 import styles from '../styles/HomeView.module.css';
 import Profile from '../images/philippe-pic.jpg';
+import Jumbotron from 'react-bootstrap/Jumbotron'
 
 const HomeView = () => {
 
@@ -19,10 +21,16 @@ const HomeView = () => {
 
             <div className={styles.row}>
                 <section className={styles.column}>
-                    <p>test</p>
+                    <Jumbotron fluid className={styles.jumbotron}>
+                        <h3>Expertise In:</h3>
+                        <SkillsLogos />
+                    </Jumbotron>
                 </section>
                 <section className={styles.column}>
-                    <p>test</p>
+                <Jumbotron fluid className={styles.jumbotron}>
+                        <h3>Looking For:</h3>
+                        <p>job as blah blah blah</p>
+                    </Jumbotron>
                 </section>
             </div>
         </main>

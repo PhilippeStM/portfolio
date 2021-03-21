@@ -1,7 +1,7 @@
 .logo {
     vertical-align: middle;
-    width: 27.5rem;
-    margin: 1.5rem 3rem 0 0;
+    width: 29rem;
+    margin: 1.5rem 5rem 0 0rem;
 }
 
 .navBar{
@@ -9,7 +9,7 @@
     display: inline-block;
     vertical-align: middle;
     padding: .5rem 2rem .5rem 2rem;
-    margin: 1rem 5rem 0 5rem;
+    margin: 1rem 0rem 0 5rem;
     border-radius: 5px;
     font-size: 1.5rem;
 }
