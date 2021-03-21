@@ -1,31 +1,7 @@
-/* .wrapper {
-    margin: 1rem 0rem 1rem 0rem;
-}
-
-.linkWrapper {
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
-    
-    border: 2px black solid;
-    padding: 1rem;
-    background: #719091;
-}
-
-.link {
-    padding: 2rem;
-    color: #D1E8E2;
-    font-size: 1.5rem;
-}
-
-.link:hover {
-    color: rgb(252, 188, 49);
-} */
-
 .logo {
     vertical-align: middle;
-    width: 25rem;
-    margin: 1rem 5rem 0 0;
+    width: 27.5rem;
+    margin: 1.5rem 3rem 0 0;
 }
 
 .navBar{
@@ -33,7 +9,7 @@
     display: inline-block;
     vertical-align: middle;
     padding: .5rem 2rem .5rem 2rem;
-    margin: 1rem 0 0 0;
+    margin: 1rem 5rem 0 5rem;
     border-radius: 5px;
     font-size: 1.5rem;
 }
