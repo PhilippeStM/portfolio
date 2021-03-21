@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBarHome from '../components/navBar/NavBarHome';
 import SkillsLogos from '../components/homePage/SkillsLogos';
+import LookingForList from '../components/homePage/LookingForList';
 import styles from '../styles/HomeView.module.css';
 import Profile from '../images/philippe-pic.jpg';
 import Jumbotron from 'react-bootstrap/Jumbotron'
@@ -29,7 +30,7 @@ const HomeView = () => {
                 <section className={styles.column}>
                 <Jumbotron fluid className={styles.jumbotron}>
                         <h3>Looking For:</h3>
-                        <p>job as blah blah blah</p>
+                        <LookingForList />
                     </Jumbotron>
                 </section>
             </div>
