@@ -7,7 +7,7 @@ const ExperienceView = () => {
 
     return (
         <section>
-            <section className={styles.bgBar}></section>
+            <p>maybe visually represent these bars w/ the dates laid out and bar sizes based on length of employment. Even make the exp/edu rows horizontal maybe.</p>
             <div className={styles.row}>
                 <section className={styles.experienceColumn}>
                     <h2>Work Experience</h2>

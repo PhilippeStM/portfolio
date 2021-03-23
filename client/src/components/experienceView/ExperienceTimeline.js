@@ -20,12 +20,56 @@ const ExperienceTimeline = () => {
                 </Card>
                 <Card className={styles.accordianCardGreen}>
                     <Accordion.Toggle as={Card.Header} eventKey="1">
-                        Dispatcher
+                        Police Dispatcher
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="1">
                         <Card.Body>4/2019 to 7/2020 - Orange Police Department
                             <br></br>
                             Respond to 911 and non emergency phone calls. Use police communication technology and radio systems to dispatch and communicate with field units. Use multiple software applications and screens to perform job duties and document incidents as they unfold.
+                        </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                <Card className={styles.accordianCardPurple}>
+                    <Accordion.Toggle as={Card.Header} eventKey="2">
+                        Police Services Officer
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="2">
+                        <Card.Body>11/2017 to 4/2019 - Orange Police Department
+                            <br></br>
+                            Respond to non emergency calls for service and open investigations as needed. Write police reports for non violent crimes and conduct CSI when appropriate. Use police radio to communicate in the field. Respond to citizen requests at the front desk.
+                        </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                <Card className={styles.accordianCardGreen}>
+                    <Accordion.Toggle as={Card.Header} eventKey="3">
+                        Assistant Manager
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="3">
+                        <Card.Body>5/2015 to 11/2017 - Cinemark
+                            <br></br>
+                            Assist General Manager in theater operations. Develop and train staff members. Ensure all applicable laws, ordinances and policies are followed. Resolve guest and employee conflicts/concerns.
+                        </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                <Card className={styles.accordianCardPurple}>
+                    <Accordion.Toggle as={Card.Header} eventKey="4">
+                        Multiple Positions
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="4">
+                        <Card.Body>5/2005 to 5/2013 - Cinemark
+                            <br></br>
+                            Positions included: Shift Leader, Projectionist (both 35mm and digital), Concessionist, Usher, Theater Checker.
+                        </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                <Card className={styles.accordianCardGreen}>
+                    <Accordion.Toggle as={Card.Header} eventKey="5">
+                        Chess Instructor
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="5">
+                        <Card.Body>10/2012 to 6/2017 - Strategic Kids
+                            <br></br>
+                            Provide engaging chess lessons to children enrolled in after-school programs.
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
