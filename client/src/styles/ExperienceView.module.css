@@ -13,14 +13,14 @@
     border: darkgreen solid 1px;
 }
 
-/* .bgBar {
-    position: absolute;
-    width: 1684.13px;
-    height: 142px;
-    left: -100.26px;
-    top: 677.84px;
+.container {
+    width: 75%;
+}
 
-    background: #FFFFFF;
-    transform: rotate(-17.22deg); 
-} */
+.accordianCardPurple {
+    background-color: rgba(148, 137, 247, 0.466);
+}
 
+.accordianCardGreen {
+    background-color: #719090a8;
+}

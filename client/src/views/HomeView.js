@@ -29,7 +29,7 @@ const HomeView = () => {
                         <h3>Looking For Roles As:</h3>
                         <br></br>
                         <p className={styles.lookingForP}>Web Developer</p>
-                        <p className={styles.lookingForP}>QA Engineer</p>
+                        <p className={styles.lookingForP}>*Open to remote roles or relocation*</p>
                     </Jumbotron>
                 </section>
             </div>
