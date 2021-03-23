@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card';
 import CodingDojoCertificateModal from './CodingDojoCertificateModal';
 
 const EducationTimeline = () => {
+
     return (
         <Accordion defaultActiveKey="0">
             <Card>

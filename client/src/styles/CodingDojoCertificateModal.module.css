@@ -1,0 +1,5 @@
+.modal {
+    background-color: rgba(128, 128, 128, 0.685);
+    width: 70%;
+    max-width: none!important;
+}
