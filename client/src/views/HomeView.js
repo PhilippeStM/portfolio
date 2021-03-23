@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBarHome from '../components/navBar/NavBarHome';
 import SkillsLogos from '../components/homePage/SkillsLogos';
 import LookingForList from '../components/homePage/LookingForList';
 import styles from '../styles/HomeView.module.css';
@@ -11,7 +10,6 @@ const HomeView = () => {
 
     return (
         <main>
-            <NavBarHome />
             <section>
                 <img src={Profile} alt="My profile" className={styles.profilePic}></img>
                 <section className={styles.bar}>
