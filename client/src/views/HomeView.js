@@ -1,6 +1,5 @@
 import React from 'react';
-import SkillsLogos from '../components/homePage/SkillsLogos';
-import LookingForList from '../components/homePage/LookingForList';
+import SkillsLogos from '../components/homeView/SkillsLogos';
 import styles from '../styles/HomeView.module.css';
 import Profile from '../images/philippe-pic.jpg';
 import Jumbotron from 'react-bootstrap/Jumbotron'
@@ -27,18 +26,15 @@ const HomeView = () => {
                 </section>
                 <section className={styles.column}>
                 <Jumbotron fluid className={styles.jumbotron}>
-                        <h3>Looking For:</h3>
-                        <LookingForList />
+                        <h3>Looking For Roles As:</h3>
+                        <br></br>
+                        <p className={styles.lookingForP}>Web Developer</p>
+                        <p className={styles.lookingForP}>QA Engineer</p>
                     </Jumbotron>
                 </section>
             </div>
         </main>
-
-
-
-
     )
 }
-
 
 export default HomeView;

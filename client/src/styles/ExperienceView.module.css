@@ -1,0 +1,26 @@
+.row {
+    display: flex;
+}
+
+.experienceColumn {
+    margin-top: 10%;
+    flex: 50%;
+    border: blue solid 1px;
+}
+
+.educationColumn {
+    flex: 50%;
+    border: darkgreen solid 1px;
+}
+
+/* .bgBar {
+    position: absolute;
+    width: 1684.13px;
+    height: 142px;
+    left: -100.26px;
+    top: 677.84px;
+
+    background: #FFFFFF;
+    transform: rotate(-17.22deg); 
+} */
+
