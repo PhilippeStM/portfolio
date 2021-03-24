@@ -16,7 +16,7 @@ const CodingDojoCertificateModal = () => {
 
         <>
             <Button variant="primary" onClick={handleShow}>
-                Launch demo modal
+                View Certificate
         </Button>
 
             <Modal
@@ -26,7 +26,7 @@ const CodingDojoCertificateModal = () => {
                 <Modal.Header closeButton>
                     <Modal.Title>Certificate</Modal.Title>
                 </Modal.Header>
-                <Modal.Body><img src={DojoCert} alt="certificate"></img></Modal.Body>
+                <Modal.Body><img src={DojoCert} alt="certificate" className={styles.certImg}></img></Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>
                         Close

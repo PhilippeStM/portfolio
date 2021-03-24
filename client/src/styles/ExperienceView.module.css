@@ -18,9 +18,13 @@
 }
 
 .accordianCardPurple {
-    background-color: rgba(148, 137, 247, 0.466);
+    background-color: rgba(148, 137, 247, 0.24);
 }
 
 .accordianCardGreen {
-    background-color: #719090a8;
+    background-color: #71909033;
+}
+
+.title {
+    font-size: 1.5rem;
 }

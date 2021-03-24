@@ -9,7 +9,8 @@ const ExperienceTimeline = () => {
             <Accordion className={styles.container} defaultActiveKey="0">
                 <Card className={styles.accordianCardPurple}>
                     <Accordion.Toggle as={Card.Header} eventKey="0">
-                        Customer Service Representative
+                        
+                    <span className={styles.title}>Customer Service Representative</span>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
                         <Card.Body>10/2020 to Present - Clean Energy Fuels.
@@ -20,7 +21,8 @@ const ExperienceTimeline = () => {
                 </Card>
                 <Card className={styles.accordianCardGreen}>
                     <Accordion.Toggle as={Card.Header} eventKey="1">
-                        Police Dispatcher
+                        
+                    <span className={styles.title}>Police Dispatcher</span>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="1">
                         <Card.Body>4/2019 to 7/2020 - Orange Police Department
@@ -31,7 +33,8 @@ const ExperienceTimeline = () => {
                 </Card>
                 <Card className={styles.accordianCardPurple}>
                     <Accordion.Toggle as={Card.Header} eventKey="2">
-                        Police Services Officer
+                        
+                    <span className={styles.title}>Police Services Officer</span>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="2">
                         <Card.Body>11/2017 to 4/2019 - Orange Police Department
@@ -42,7 +45,8 @@ const ExperienceTimeline = () => {
                 </Card>
                 <Card className={styles.accordianCardGreen}>
                     <Accordion.Toggle as={Card.Header} eventKey="3">
-                        Assistant Manager
+                        
+                    <span className={styles.title}>Assistant Manager</span>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="3">
                         <Card.Body>5/2015 to 11/2017 - Cinemark
@@ -53,7 +57,8 @@ const ExperienceTimeline = () => {
                 </Card>
                 <Card className={styles.accordianCardPurple}>
                     <Accordion.Toggle as={Card.Header} eventKey="4">
-                        Multiple Positions
+                        
+                    <span className={styles.title}>Multiple Positions (Cinemark)</span>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="4">
                         <Card.Body>5/2005 to 5/2013 - Cinemark
@@ -64,7 +69,8 @@ const ExperienceTimeline = () => {
                 </Card>
                 <Card className={styles.accordianCardGreen}>
                     <Accordion.Toggle as={Card.Header} eventKey="5">
-                        Chess Instructor
+                        
+                    <span className={styles.title}>Chess Instructor</span>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="5">
                         <Card.Body>10/2012 to 6/2017 - Strategic Kids
