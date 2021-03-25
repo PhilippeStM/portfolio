@@ -3,14 +3,11 @@
 }
 
 .experienceColumn {
-    margin-top: 10%;
     flex: 50%;
-    border: blue solid 1px;
 }
 
 .educationColumn {
     flex: 50%;
-    border: darkgreen solid 1px;
 }
 
 .container {
