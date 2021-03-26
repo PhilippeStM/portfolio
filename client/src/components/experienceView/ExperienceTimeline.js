@@ -1,16 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import styles from '../../styles/ExperienceView.module.css';
 
 const ExperienceTimeline = () => {
+
+    const [newColor, setNewColor] = useState("");
+
+    const changeColor = (e) => {
+        setNewColor("red");
+    }
+
+    console.log(newColor);
+
     return (
         <div>
             <Accordion className={styles.container} defaultActiveKey="0">
-                <Card className={styles.accordianCardPurple}>
+
+                <Card className={styles.accordianCardPurple}
+                onClick={changeColor}
+                style={{backgroundColor:newColor}}
+                >
                     <Accordion.Toggle as={Card.Header} eventKey="0">
-                        
-                    <span className={styles.title}>Customer Service Representative</span>
+                        <span className={styles.title}>Customer Service Representative</span>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
                         <Card.Body>10/2020 to Present - Clean Energy Fuels.
@@ -19,10 +31,10 @@ const ExperienceTimeline = () => {
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
+
                 <Card className={styles.accordianCardGreen}>
                     <Accordion.Toggle as={Card.Header} eventKey="1">
-                        
-                    <span className={styles.title}>Police Dispatcher</span>
+                        <span className={styles.title}>Police Dispatcher</span>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="1">
                         <Card.Body>4/2019 to 7/2020 - Orange Police Department
@@ -31,10 +43,10 @@ const ExperienceTimeline = () => {
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
+
                 <Card className={styles.accordianCardPurple}>
                     <Accordion.Toggle as={Card.Header} eventKey="2">
-                        
-                    <span className={styles.title}>Police Services Officer</span>
+                        <span className={styles.title}>Police Services Officer</span>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="2">
                         <Card.Body>11/2017 to 4/2019 - Orange Police Department
@@ -43,10 +55,10 @@ const ExperienceTimeline = () => {
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
+
                 <Card className={styles.accordianCardGreen}>
                     <Accordion.Toggle as={Card.Header} eventKey="3">
-                        
-                    <span className={styles.title}>Assistant Manager</span>
+                        <span className={styles.title}>Assistant Manager</span>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="3">
                         <Card.Body>5/2015 to 11/2017 - Cinemark
@@ -55,30 +67,31 @@ const ExperienceTimeline = () => {
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
+
                 <Card className={styles.accordianCardPurple}>
                     <Accordion.Toggle as={Card.Header} eventKey="4">
-                        
-                    <span className={styles.title}>Multiple Positions (Cinemark)</span>
+                        <span className={styles.title}>Chess Instructor</span>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="4">
-                        <Card.Body>5/2005 to 5/2013 - Cinemark
-                            <br></br>
-                            Positions included: Shift Leader, Projectionist (both 35mm and digital), Concessionist, Usher, Theater Checker.
-                        </Card.Body>
-                    </Accordion.Collapse>
-                </Card>
-                <Card className={styles.accordianCardGreen}>
-                    <Accordion.Toggle as={Card.Header} eventKey="5">
-                        
-                    <span className={styles.title}>Chess Instructor</span>
-                    </Accordion.Toggle>
-                    <Accordion.Collapse eventKey="5">
                         <Card.Body>10/2012 to 6/2017 - Strategic Kids
                             <br></br>
                             Provide engaging chess lessons to children enrolled in after-school programs.
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
+
+                <Card className={styles.accordianCardGreen}>
+                    <Accordion.Toggle as={Card.Header} eventKey="5">
+                        <span className={styles.title}>Multiple Positions (Cinemark)</span>
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="5">
+                        <Card.Body>5/2005 to 5/2013 - Cinemark
+                            <br></br>
+                            Positions included: Shift Leader, Projectionist (both 35mm and digital), Concessionist, Usher, Theater Checker.
+                        </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+
             </Accordion>
         </div>
     )

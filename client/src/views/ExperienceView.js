@@ -6,8 +6,7 @@ import EducationTimeline from '../components/experienceView/EducationTimeline';
 const ExperienceView = () => {
 
     return (
-        <section>
-            <p>maybe visually represent these bars w/ the dates laid out and bar sizes based on length of employment. Even make the exp/edu rows horizontal maybe.</p>
+        <section className={styles.wrapperContainer}>
             <div className={styles.row}>
                 <section className={styles.experienceColumn}>
                     <h2>Work Experience</h2>

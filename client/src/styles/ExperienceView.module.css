@@ -1,21 +1,41 @@
-.row {
+.row{
     display: flex;
+}
+
+.wrapperContainer {
+    margin-top: 50px;
 }
 
 .experienceColumn {
     flex: 50%;
 }
 
+.experienceColumn h2 {
+    margin-bottom: 50px;
+}
+
 .educationColumn {
     flex: 50%;
 }
 
+.educationColumn h2 {
+    margin-bottom: 50px;
+}
+
 .container {
-    width: 75%;
+    width: 80%;
 }
 
 .accordianCardPurple {
     background-color: rgba(148, 137, 247, 0.24);
+}
+
+.accordianCardPurple:hover {
+    background-color: rgba(255, 68, 0, 0.151);
+}
+
+.accordianCardPurple:active {
+    background-color: rgba(255, 68, 0, 0.151);
 }
 
 .accordianCardGreen {
