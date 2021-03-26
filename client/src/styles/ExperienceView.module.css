@@ -26,6 +26,10 @@
     width: 80%;
 }
 
+.accordianCardStart {
+    background-color: orangered;
+}
+
 .accordianCardPurple {
     background-color: rgba(148, 137, 247, 0.24);
 }

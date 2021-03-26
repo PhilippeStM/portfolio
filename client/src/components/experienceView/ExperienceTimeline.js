@@ -5,30 +5,85 @@ import styles from '../../styles/ExperienceView.module.css';
 
 const ExperienceTimeline = () => {
 
-    const [newColor, setNewColor] = useState("orangered");
-    const [active, setActive] = useState(false);
+    // This is the function and state for CUSTOMER SERVICE
 
-    const changeColor = () => {
-        if (active === true) {
-            setNewColor("orangered");
-            setActive(false);
+    const [newColorCustomerService, setNewColorCustomerService] = useState("orangered");
+    const [activeCustomerService, setActiveCustomerService] = useState(false);
+
+    const changeColorCustomerService = () => {
+
+        setNewColorDispatcher("#71909033");
+        setActiveDispatcher(false);
+        setNewColorPSO("rgba(148, 137, 247, 0.24)");
+        setActivePSO(false);
+
+        if (activeCustomerService === true) {
+            setNewColorCustomerService("orangered");
+            setActiveCustomerService(false);
         }
         else {
-            setActive(true);
-            setNewColor("rgba(148, 137, 247, 0.24");
+            setActiveCustomerService(true);
+            setNewColorCustomerService("rgba(148, 137, 247, 0.24");
         }
     }
 
-    console.log("new color " + newColor);
-    console.log("active " + active);
+    // **************************************************************
+
+    // This is the function and state for DISPATCHER
+
+    const [newColorDispatcher, setNewColorDispatcher] = useState("");
+    const [activeDispatcher, setActiveDispatcher] = useState(false);
+
+    const changeColorDispatcher = () => {
+
+        setNewColorCustomerService("rgba(148, 137, 247, 0.24");
+        setActiveCustomerService(false);
+        setNewColorPSO("rgba(148, 137, 247, 0.24)");
+        setActivePSO(false);
+
+        if (activeDispatcher === true) {
+            setNewColorDispatcher("#71909033");
+            setActiveDispatcher(false);
+        }
+        else {
+            setActiveDispatcher(true);
+            setNewColorDispatcher("orangered");
+        }
+    }
+
+    // **************************************************************
+
+        // This is the function and state for PSO
+
+        const [newColorPSO, setNewColorPSO] = useState("");
+        const [activePSO, setActivePSO] = useState(false);
+    
+        const changeColorPSO = () => {
+
+            setNewColorCustomerService("rgba(148, 137, 247, 0.24");
+            setActiveCustomerService(true);
+            setNewColorDispatcher("#71909033");
+            setActiveDispatcher(false);
+
+            if (activePSO === true) {
+                setNewColorPSO("rgba(148, 137, 247, 0.24)");
+                setActivePSO(false);
+            }
+            else {
+                setActivePSO(true);
+                setNewColorPSO("orangered");
+            }
+        }
+    
+        // **************************************************************
 
     return (
         <div>
             <Accordion className={styles.container} defaultActiveKey="0">
 
                 <Card className={styles.accordianCardPurple}
-                    onClick={changeColor}
-                    style={{ backgroundColor: newColor }}
+                    onClick={changeColorCustomerService}
+                    style={{ backgroundColor: newColorCustomerService }}
                 >
                     <Accordion.Toggle as={Card.Header} eventKey="0">
                         <span className={styles.title}>Customer Service Representative</span>
@@ -41,7 +96,10 @@ const ExperienceTimeline = () => {
                     </Accordion.Collapse>
                 </Card>
 
-                <Card className={styles.accordianCardGreen}>
+                <Card className={styles.accordianCardGreen}
+                    onClick={changeColorDispatcher}
+                    style={{ backgroundColor: newColorDispatcher }}
+                >
                     <Accordion.Toggle as={Card.Header} eventKey="1">
                         <span className={styles.title}>Police Dispatcher</span>
                     </Accordion.Toggle>
@@ -53,7 +111,10 @@ const ExperienceTimeline = () => {
                     </Accordion.Collapse>
                 </Card>
 
-                <Card className={styles.accordianCardPurple}>
+                <Card className={styles.accordianCardPurple}
+                    onClick={changeColorPSO}
+                    style={{ backgroundColor: newColorPSO }}
+                >
                     <Accordion.Toggle as={Card.Header} eventKey="2">
                         <span className={styles.title}>Police Services Officer</span>
                     </Accordion.Toggle>
