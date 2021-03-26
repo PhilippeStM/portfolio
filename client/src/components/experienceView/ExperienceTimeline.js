@@ -5,21 +5,30 @@ import styles from '../../styles/ExperienceView.module.css';
 
 const ExperienceTimeline = () => {
 
-    const [newColor, setNewColor] = useState("");
+    const [newColor, setNewColor] = useState("orangered");
+    const [active, setActive] = useState(false);
 
-    const changeColor = (e) => {
-        setNewColor("red");
+    const changeColor = () => {
+        if (active === true) {
+            setNewColor("orangered");
+            setActive(false);
+        }
+        else {
+            setActive(true);
+            setNewColor("rgba(148, 137, 247, 0.24");
+        }
     }
 
-    console.log(newColor);
+    console.log("new color " + newColor);
+    console.log("active " + active);
 
     return (
         <div>
             <Accordion className={styles.container} defaultActiveKey="0">
 
                 <Card className={styles.accordianCardPurple}
-                onClick={changeColor}
-                style={{backgroundColor:newColor}}
+                    onClick={changeColor}
+                    style={{ backgroundColor: newColor }}
                 >
                     <Accordion.Toggle as={Card.Header} eventKey="0">
                         <span className={styles.title}>Customer Service Representative</span>
