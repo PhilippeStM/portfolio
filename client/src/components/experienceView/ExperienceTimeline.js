@@ -17,13 +17,13 @@ const ExperienceTimeline = () => {
         setNewColorPSO("rgba(148, 137, 247, 0.24)");
         setActivePSO(false);
 
-        if (activeCustomerService === true) {
-            setNewColorCustomerService("orangered");
+        if (activeCustomerService === true && newColorCustomerService === "rgba(148, 137, 247, 0.24") {
+            setNewColorCustomerService("rgba(148, 137, 247, 0.24");
             setActiveCustomerService(false);
         }
-        else {
+        else{
             setActiveCustomerService(true);
-            setNewColorCustomerService("rgba(148, 137, 247, 0.24");
+            setNewColorCustomerService("orangered");
         }
     }
 
@@ -41,7 +41,7 @@ const ExperienceTimeline = () => {
         setNewColorPSO("rgba(148, 137, 247, 0.24)");
         setActivePSO(false);
 
-        if (activeDispatcher === true) {
+        if (activeDispatcher === true && newColorDispatcher === "#71909033") {
             setNewColorDispatcher("#71909033");
             setActiveDispatcher(false);
         }
@@ -53,29 +53,29 @@ const ExperienceTimeline = () => {
 
     // **************************************************************
 
-        // This is the function and state for PSO
+    // This is the function and state for PSO
 
-        const [newColorPSO, setNewColorPSO] = useState("");
-        const [activePSO, setActivePSO] = useState(false);
-    
-        const changeColorPSO = () => {
+    const [newColorPSO, setNewColorPSO] = useState("");
+    const [activePSO, setActivePSO] = useState(false);
 
-            setNewColorCustomerService("rgba(148, 137, 247, 0.24");
-            setActiveCustomerService(true);
-            setNewColorDispatcher("#71909033");
-            setActiveDispatcher(false);
+    const changeColorPSO = () => {
 
-            if (activePSO === true) {
-                setNewColorPSO("rgba(148, 137, 247, 0.24)");
-                setActivePSO(false);
-            }
-            else {
-                setActivePSO(true);
-                setNewColorPSO("orangered");
-            }
+        setNewColorCustomerService("rgba(148, 137, 247, 0.24");
+        setActiveCustomerService(false);
+        setNewColorDispatcher("#71909033");
+        setActiveDispatcher(false);
+
+        if (activePSO === true) {
+            setNewColorPSO("rgba(148, 137, 247, 0.24)");
+            setActivePSO(false);
         }
-    
-        // **************************************************************
+        else {
+            setActivePSO(true);
+            setNewColorPSO("orangered");
+        }
+    }
+
+    // **************************************************************
 
     return (
         <div>
