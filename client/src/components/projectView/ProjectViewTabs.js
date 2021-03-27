@@ -10,8 +10,8 @@ const ProjectViewTabs = () => {
 
     return (
         <div className={styles.tabContainer}>
-            <Tabs fill defaultActiveKey="home" id="uncontrolled-tab-example">
-                <Tab eventKey="home" title="Home">
+            <Tabs fill defaultActiveKey="home" id="uncontrolled-tab-example" className={styles.tabLinkContainer}>
+                <Tab eventKey="home" title="Featured">
                     <CardDeck className={styles.cardDeckContainer}>
                         <ProjectCard
                             id="bootcamp"
@@ -36,10 +36,10 @@ const ProjectViewTabs = () => {
                         />
                     </CardDeck>
                 </Tab>
-                <Tab eventKey="profile" title="Profile">
+                <Tab eventKey="coding-dojo" title="Coding Dojo">
                     <p>hi</p>
                 </Tab>
-                <Tab eventKey="contact" title="Contact" disabled>
+                <Tab eventKey="tek-systems" title="Tek Systems">
                     <p>test</p>
                 </Tab>
             </Tabs>
