@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from '../styles/PortfolioApp.module.css';
 
 import ContactView from '../views/ContactView';
 import ExperienceView from '../views/ExperienceView';
@@ -13,7 +12,7 @@ import NavBar from '../components/navBar/NavBar';
 const PortfolioApp = () => {
     return (
         <Router>
-            <center className={styles.wrapper}>
+            <center>
                 <NavBar/>
                 <Route exact path="/" component={HomeView} />
                 <Route exact path="/contact" component={ContactView} />

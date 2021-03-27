@@ -1,10 +1,8 @@
 import React from 'react';
-import CardDeck from 'react-bootstrap/CardDeck';
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import ProjectCard from '../components/projectView/ProjectCard';
-import TestLogo from '../images/css-logo.png';
 import styles from '../styles/ProjectsView.module.css';
 import ProjectPopover from '../components/projectView/ProjectPopover';
+import ProjectViewTabs from '../components/projectView/ProjectViewTabs';
 
 const ProjectsView = () => {
 
@@ -17,30 +15,8 @@ const ProjectsView = () => {
                 <ProjectPopover />
             </Jumbotron>
             <section>
-                <CardDeck className={styles.cardDeckContainer}>
-                    <ProjectCard
-                        id="bootcamp"
-                        imgSrc={TestLogo}
-                        title="test title"
-                        text="test text"
-                        buttonText="test button"
-                    />
-                    <ProjectCard
-                        id="bootcamp"
-                        imgSrc={TestLogo}
-                        title="test title"
-                        text="test text"
-                        buttonText="test button"
-                    />
-                    <ProjectCard
-                        id="bootcamp"
-                        imgSrc={TestLogo}
-                        title="test title"
-                        text="test text"
-                        buttonText="test button"
-                    />
-                </CardDeck>
-
+                <h2>Check out some of my projects below!</h2>
+                <ProjectViewTabs />
             </section>
 
         </div>

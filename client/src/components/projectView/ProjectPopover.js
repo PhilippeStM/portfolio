@@ -9,7 +9,8 @@ const ProjectPopover = () => {
         <Popover id="popover-basic">
             <Popover.Title as="h3">Portfolio Features:</Popover.Title>
             <Popover.Content>
-                This webpage was created using the <strong>React</strong> framework, which includes extensive use of <strong>JavaScript/jQuery</strong> and some <strong>HTML/CSS</strong>. <br></br>
+                This webpage was created using the <strong>React</strong> framework, which includes extensive use of <strong>JavaScript, jQuery</strong> and some <strong>HTML/CSS</strong>.
+                <br></br>
                 <br></br>
                 <strong>React Bootstrap</strong> was used to create many of the features, including the navbar, cards, and the accordian effects on the experience view.
             </Popover.Content>
