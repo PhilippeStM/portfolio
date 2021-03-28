@@ -3,7 +3,6 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import CardDeck from 'react-bootstrap/CardDeck';
 import ProjectCard from '../projectView/ProjectCard';
-import TestLogo from '../../images/css-logo.png';
 import ClothingEmporiumPicture from '../../images/clothing-emporium.png';
 import SushiMePicture from '../../images/sushime.png';
 import NewsPicture from '../../images/news-project.png';
@@ -24,6 +23,7 @@ const ProjectViewTabs = () => {
                             techUsed="React, React Bootstrap, JavaScript, jQuery, HTML, CSS."
                             buttonText="View Project Page"
                             href="http://flashy-kite.surge.sh/"
+                            gitHref="https://github.com/PhilippeStM/tek-camp-capstone-1"
                         />
                         <ProjectCard
                             id="featured"
@@ -33,6 +33,7 @@ const ProjectViewTabs = () => {
                             techUsed="React, Express, Node.js, MondoDB, Axios, JavaScript, jQuery, HTML, CSS."
                             buttonText="View Project Video"
                             href="https://www.youtube.com/watch?v=kih2YiqUqww"
+                            gitHref="https://github.com/PhilippeStM/Solo-Project"
                         />
                         <ProjectCard
                             id="featured"
@@ -42,6 +43,7 @@ const ProjectViewTabs = () => {
                             techUsed="React, Axios, API's."
                             buttonText="View Project Video"
                             href="https://www.youtube.com/watch?v=0ceVXWscR7E"
+                            gitHref="https://github.com/PhilippeStM/tek-systems-react-exercise/tree/master/news"
                         />
                     </CardDeck>
                 </Tab>

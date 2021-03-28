@@ -13,15 +13,17 @@ const ProjectCard = (props) => {
         text={props.text}
         techUsed={props.techUsed}
         buttonText={props.buttonText}
-        href={props.href}        
+        href={props.href} 
+        gitHref={props.gitHref}       
         >
             <Card.Img variant="top" src={props.imgSrc} className={styles.img}/>
             <Card.Body>
-                <Card.Title>{props.title}</Card.Title>
-                <Card.Text>{props.text}</Card.Text>
+                <Card.Title className={styles.title}>{props.title}</Card.Title>
+                <Card.Text className={styles.mainText}>{props.text}</Card.Text>
                 <Card.Text><u>Technologies Used:</u></Card.Text>
-                <Card.Text><b>{props.techUsed}</b></Card.Text>
-                <Button variant="primary" href={props.href} target="_blank" rel="noreferrer">{props.buttonText}</Button>
+                <Card.Text className={styles.techUsed}><b>{props.techUsed}</b></Card.Text>
+                <Button className={styles.button} variant="primary" href={props.href} target="_blank" rel="noreferrer">{props.buttonText}</Button>
+                <Button variant="outline-info" href={props.gitHref} target="_blank" rel="noreferrer">View on GitHub</Button>
             </Card.Body>
         </Card>
     )
