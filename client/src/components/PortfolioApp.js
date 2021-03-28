@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import ContactView from '../views/ContactView';
 import ExperienceView from '../views/ExperienceView';
 import HomeView from '../views/HomeView';
 import ProjectsView from '../views/ProjectsView';
@@ -15,7 +14,6 @@ const PortfolioApp = () => {
             <center>
                 <NavBar/>
                 <Route exact path="/" component={HomeView} />
-                <Route exact path="/contact" component={ContactView} />
                 <Route exact path="/experience" component={ExperienceView} />
                 <Route exact path="/projects" component={ProjectsView} />
             </center>

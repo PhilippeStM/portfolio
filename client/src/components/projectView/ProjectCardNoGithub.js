@@ -14,8 +14,7 @@ const ProjectCard = (props) => {
         text={props.text}
         techUsed={props.techUsed}
         buttonText={props.buttonText}
-        href={props.href} 
-        gitHref={props.gitHref}       
+        href={props.href}     
         >
             <Card.Img variant="top" src={props.imgSrc} className={styles.img}/>
             <Card.Body>
@@ -25,8 +24,6 @@ const ProjectCard = (props) => {
                 <Card.Text><u>Technologies Used:</u></Card.Text>
                 <Card.Text className={styles.techUsed}><b>{props.techUsed}</b></Card.Text>
                 <Button className={styles.button} variant="primary" href={props.href} target="_blank" rel="noreferrer">{props.buttonText}</Button>
-                <br></br>
-                <Button variant="outline-info" href={props.gitHref} target="_blank" rel="noreferrer">View on GitHub</Button>
             </Card.Body>
         </Card>
     )

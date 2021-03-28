@@ -1,0 +1,10 @@
+.formContainer {
+    max-width: 50%;
+    background-color: whitesmoke;
+    border: black 2px solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}
