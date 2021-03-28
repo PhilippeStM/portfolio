@@ -5,6 +5,8 @@ import CardDeck from 'react-bootstrap/CardDeck';
 import ProjectCard from '../projectView/ProjectCard';
 import TestLogo from '../../images/css-logo.png';
 import ClothingEmporiumPicture from '../../images/clothing-emporium.png';
+import SushiMePicture from '../../images/sushime.png';
+import NewsPicture from '../../images/news-project.png';
 import styles from '../../styles/ProjectsView.module.css';
 
 const ProjectViewTabs = () => {
@@ -17,34 +19,36 @@ const ProjectViewTabs = () => {
                         <ProjectCard
                             id="featured"
                             imgSrc={ClothingEmporiumPicture}
-                            title="Clothing Emporium"
+                            title="Clothing Emporium (Front-End)"
                             text="Capstone Project for TekSystems Bootcamp. Created with React framework, implemented useContext to save state on the cart."
                             techUsed="React, React Bootstrap, JavaScript, jQuery, HTML, CSS."
-                            buttonText="View Project"
+                            buttonText="View Project Page"
                             href="http://flashy-kite.surge.sh/"
                         />
                         <ProjectCard
-                            id="bootcamp"
-                            imgSrc={TestLogo}
-                            title="test title"
-                            text="test text"
-                            buttonText="test button"
-                            href="test"
+                            id="featured"
+                            imgSrc={SushiMePicture}
+                            title="SushiMe! (Both Front and Back-End)"
+                            text="Final Solo Project for Coding Dojo. Online restaurant website with ordering functionality."
+                            techUsed="React, Express, Node.js, MondoDB, Axios, JavaScript, jQuery, HTML, CSS."
+                            buttonText="View Project Video"
+                            href="https://www.youtube.com/watch?v=kih2YiqUqww"
                         />
                         <ProjectCard
-                            id="bootcamp"
-                            imgSrc={TestLogo}
-                            title="test title"
-                            text="test text"
-                            buttonText="test button"
-                            href="test"
+                            id="featured"
+                            imgSrc={NewsPicture}
+                            title="Tek News (Front-End)"
+                            text="API project from TekSystems Bootcamp that involved working with the news.api."
+                            techUsed="React, Axios, API's."
+                            buttonText="View Project Video"
+                            href="https://www.youtube.com/watch?v=0ceVXWscR7E"
                         />
                     </CardDeck>
                 </Tab>
-                <Tab eventKey="coding-dojo" title="Coding Dojo">
+                <Tab eventKey="coding-bootcamps" title="Coding Bootcamps">
                     <p>hi</p>
                 </Tab>
-                <Tab eventKey="tek-systems" title="Tek Systems">
+                <Tab eventKey="personal-projects" title="Personal Projects">
                     <p>test</p>
                 </Tab>
             </Tabs>
