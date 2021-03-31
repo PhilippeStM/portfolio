@@ -17,6 +17,7 @@ const SkillsLogos = () => {
             <img src={JavaScriptLogo} alt="javascript logo" className={styles.logo}></img>
             <img src={CssLogo} alt="css logo" className={styles.logo}></img>
             <img src={ReactLogo} alt="react logo" className={styles.logo}></img>
+            <br></br>
             <img src={NodeLogo} alt="node logo" className={styles.logo}></img>
             <img src={MongoLogo} alt="mongo logo" className={styles.logo}></img>
             <img src={GitHubLogo} alt="github logo" className={styles.logo}></img>

@@ -143,7 +143,7 @@ const EducationTimeline = () => {
                     <span className={styles.title}>Coursework Completed</span>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="1">
-                    <Card.Body>1/2021 to 3/2021 TekSystems Bootcamp.
+                    <Card.Body>1/2021 to 3/2021 TekSystems Fullstack Course.
                         <br></br>
                         Completed assignments related to Agile Methodologies, GitHub, Algorithms, HTML/CSS/JS, DOM, React, and a Capstone Project.</Card.Body>
                 </Accordion.Collapse>

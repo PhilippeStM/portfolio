@@ -25,7 +25,7 @@ const ContactModal = () => {
                 show={show}
                 onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Contact Form</Modal.Title>
+                    <Modal.Title>Contact Me</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <ContactForm />

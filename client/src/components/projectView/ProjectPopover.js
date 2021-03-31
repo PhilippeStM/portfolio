@@ -20,7 +20,7 @@ const ProjectPopover = () => {
 
     return (
         <OverlayTrigger trigger="click" rootClose placement="right" overlay={popover}>
-            <Button variant="success">Learn More!</Button>
+            <Button variant="primary">Learn More!</Button>
         </OverlayTrigger>
     )
 };

@@ -24,7 +24,7 @@ const ProjectViewTabs = () => {
                             imgSrc={ClothingEmporiumPicture}
                             title="Clothing Emporium"
                             stack="(Front-End)"
-                            text="Capstone Project for TekSystems Bootcamp. Created with React framework, implemented useContext to save state on the cart."
+                            text="Created with React framework, implemented useContext to save state on the cart."
                             techUsed="React, React Bootstrap, JavaScript, jQuery, HTML, CSS."
                             buttonText="View Project Page"
                             href="http://flashy-kite.surge.sh/"
@@ -46,7 +46,7 @@ const ProjectViewTabs = () => {
                             imgSrc={NewsPicture}
                             title="Tek News"
                             stack="(Front-End)"
-                            text="API project from TekSystems Bootcamp that involved working with the news.api."
+                            text="API project from TekSystems Course that involved working with the news.api."
                             techUsed="React, Axios, API's."
                             buttonText="View Project Video"
                             href="https://www.youtube.com/watch?v=0ceVXWscR7E&list=PLT9DgXf5etpIzazodYEFp5BEpp7GKEWia&index=2"
@@ -54,7 +54,7 @@ const ProjectViewTabs = () => {
                         />
                     </CardDeck>
                 </Tab>
-                <Tab eventKey="coding-bootcamps" title="Coding Bootcamps">
+                <Tab eventKey="coding-bootcamps" title="Class Projects">
                     <CardDeck className={styles.cardDeckContainer}>
                         <ProjectCardNoGithub
                             id="coding-bootcamps"

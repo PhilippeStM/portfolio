@@ -1,10 +1,15 @@
 .formContainer {
-    max-width: 50%;
+    max-width: 70%;
     background-color: whitesmoke;
-    border: black 2px solid;
+    border: rgba(39, 39, 39, 0.781) 2px solid;
+    border-radius: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 50px;
     width: 70%;
+}
 
+.button {
+    margin-top: 10px;
 }
