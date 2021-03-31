@@ -16,12 +16,12 @@ const SkillsLogos = () => {
             <img src={HtmlLogo} alt="html logo" className={styles.logo}></img>
             <img src={JavaScriptLogo} alt="javascript logo" className={styles.logo}></img>
             <img src={CssLogo} alt="css logo" className={styles.logo}></img>
-            <img src={ReactLogo} alt="react logo" className={styles.logo}></img>
+            <img src={ReactLogo} alt="react logo" className={styles.moreMarginLogo}></img>
             <br></br>
-            <img src={NodeLogo} alt="node logo" className={styles.logo}></img>
-            <img src={MongoLogo} alt="mongo logo" className={styles.logo}></img>
-            <img src={GitHubLogo} alt="github logo" className={styles.logo}></img>
-            <img src={VssLogo} alt="vss logo" className={styles.logo}></img>
+            <img src={NodeLogo} alt="node logo" className={styles.moreMarginLogo}></img>
+            <img src={MongoLogo} alt="mongo logo" className={styles.moreMarginLogo}></img>
+            <img src={GitHubLogo} alt="github logo" className={styles.moreMarginLogo}></img>
+            <img src={VssLogo} alt="vss logo" className={styles.moreMarginLogo}></img>
         </section>
     )
 }
