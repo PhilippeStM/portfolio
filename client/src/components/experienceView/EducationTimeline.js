@@ -129,9 +129,10 @@ const EducationTimeline = () => {
                     <span className={styles.title}>Currently Studying</span>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="2">
-                    <Card.Body>3/2021 to Present
+                    <Card.Body><span className={styles.companyName}>3/2021 to Present</span>
                         <br></br>
-                        Continuing to learn more about React and work on projects related to front end web development.</Card.Body>
+                        <br></br>
+                        <span className={styles.jobDescription}>Continuing to learn more about React and work on projects related to front end web development.</span></Card.Body>
                 </Accordion.Collapse>
             </Card>
 
@@ -143,9 +144,10 @@ const EducationTimeline = () => {
                     <span className={styles.title}>Coursework Completed</span>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="1">
-                    <Card.Body>1/2021 to 3/2021 TekSystems Fullstack Course.
+                    <Card.Body><span className={styles.companyName}>1/2021 to 3/2021 TekSystems Fullstack Course.</span>
                         <br></br>
-                        Completed assignments related to Agile Methodologies, GitHub, Algorithms, HTML/CSS/JS, DOM, React, and a Capstone Project.</Card.Body>
+                        <br></br>
+                        <span className={styles.jobDescription}>Completed assignments related to Agile Methodologies, GitHub, Algorithms, HTML/CSS/JS, DOM, React, and a Capstone Project.</span></Card.Body>
                 </Accordion.Collapse>
             </Card>
 
@@ -158,9 +160,10 @@ const EducationTimeline = () => {
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="0">
                     <div>
-                        <Card.Body>8/2020 to 12/2020 - Coding Dojo
+                        <Card.Body><span className={styles.companyName}>8/2020 to 12/2020 - Coding Dojo</span>
                             <br></br>
-                            Full-Stack Web Development Certification in MERN and HTML/CSS/JS.</Card.Body>
+                            <br></br>
+                            <span className={styles.jobDescription}>Full-Stack Web Development Certification in MERN and HTML/CSS/JS.</span></Card.Body>
                         <CodingDojoCertificateModal />
                     </div>
                 </Accordion.Collapse>
@@ -174,9 +177,10 @@ const EducationTimeline = () => {
                     <span className={styles.title}>Bachelor's Degree</span>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="3">
-                    <Card.Body>9/2008 to 5/2012 - California Baptist University
+                    <Card.Body><span className={styles.companyName}>9/2008 to 5/2012 - California Baptist University</span>
                         <br></br>
-                        Bachelor's of Applied Theology</Card.Body>
+                        <br></br>
+                        <span className={styles.jobDescription}>Bachelor's of Applied Theology</span></Card.Body>
                 </Accordion.Collapse>
             </Card>
         </Accordion>

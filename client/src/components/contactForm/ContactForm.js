@@ -15,7 +15,7 @@ const ContactForm = () => {
                     </Form.Group>
                     <Form.Group xs={6} as={Col} controlId="formGridName">
                         <Form.Label>Name</Form.Label>
-                        <Form.Control required name="name" placeholder="John Doe" />
+                        <Form.Control required name="name" placeholder="Enter Name" />
                     </Form.Group>
                 </Form.Row>
                 <Form.Group as={Col} controlId="formGridMessage">
