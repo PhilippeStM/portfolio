@@ -12,13 +12,15 @@ const HomeView = () => {
             <section>
                 {/* <img src={Profile} alt="My profile" className={styles.profilePic}></img> */}
                 <section className={styles.bar}>
-                    <h2 className={styles.myStoryH2}>Hello, I'm, a creative problem solver with a background helping others.</h2>
+                    <h2 className={styles.myStoryH2}>Developer / Problem Solver / Skilled in Customer Service</h2>
 
                 </section>
             </section>                    
             {/* <img src={Profile} alt="My profile" className={styles.profilePic2}></img> */}
-            <h2 className={styles.intro}>I design clean, usable code with specialty in React framework. </h2>
-            <p className={styles.aboutMeText}>My first experience with coding was in 5th grade in computer class, where we learned to create simple HTML webpages. Since then, I've always had an appreciation of the technology and what it can do. Combined with my strong sense of design and color use. I have so much experience working with and helping others. I've had the opportunity to save lives as a 911 dispatcher, manage a theater, educate young children. I am transitioning into tech and want to bring my life/work experiences, continue to help others and design awesome front end applications. I have always enjoyed seeing the big picture, relentless pursuing understanding of all the moving pieces, then making it all come together.</p>
+            <h2 className={styles.intro}>Hello, my name is Philippe! I develop websites and web applications specializing in JavaScript and the React framework. </h2>
+            <p className={styles.aboutMeText}>
+                An challenge is not something to shy away from, but an opportunity for growth, and I really enjoy finding creative ways to overcome them. That's why I became a devloper - there is always something new to learn about oneself and technology. I have many years experience learning operations at all levels, from bottom to top. It is a joy for me to see how all of the moving pieces work together and interact with each other. These are just some of the reasons I enjoy development, and I look forward to bringing your applications to life!
+                </p>
 
             <div className={styles.row}>
                 <section className={styles.column}>
