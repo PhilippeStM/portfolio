@@ -199,7 +199,7 @@ const ExperienceTimeline = () => {
                         <Card.Body><span className={styles.companyName}>10/2020 to Present - Clean Energy Fuels.</span>
                             <br></br>
                             <br></br>
-                            <span className={styles.jobDescription}>Respond to phone calls from the general public and those who need assistance at natural gas stations throughout the country. Use of SCADA technology to monitor and rectify issues and gas sites. Dispatch technicians to service sites as needed.</span>
+                            <span className={styles.jobDescription}>Respond to phone calls from the public and those who need assistance at natural gas stations throughout the country. Use SCADA monitoring technology to diagnose and resolve problems at gas sites. Troubleshoot issues over the phone or dispatch technicians to service sites as needed.</span>
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
@@ -215,7 +215,7 @@ const ExperienceTimeline = () => {
                         <Card.Body><span className={styles.companyName}>4/2019 to 7/2020 - Orange Police Department</span>
                             <br></br>
                             <br></br>
-                            <span className={styles.jobDescription}>Respond to 911 and non emergency phone calls. Use police communication technology and radio systems to dispatch and communicate with field units. Use multiple software applications and screens to perform job duties and document incidents as they unfold.</span>
+                            <span className={styles.jobDescription}>Respond to 911 and non emergency phone calls. Use police communication technology and radio systems to dispatch and communicate with field units. Use multiple software applications to perform duties and document incidents as they unfold.</span>
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>

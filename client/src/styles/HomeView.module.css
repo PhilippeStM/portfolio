@@ -17,11 +17,12 @@
     height: 100px;
     /* background-color: rgba(255, 166, 0, 0.589); */
     /* background-color: rgba(0, 128, 64, 0.521); */
-    background-image: linear-gradient(to right, rgba(66, 0, 128, 0.616), rgba(0, 128, 64, 0.521));
+    background-image: linear-gradient(to right, rgba(66, 0, 128, 0.459), rgba(0, 128, 64, 0.411));
 }
 
 .intro {
     margin-top: 50px;
+    max-width: 1400px;
 }
 
 .myStoryH2 {
@@ -43,6 +44,7 @@
 
 .column {
     flex: 50%;
+    margin-bottom: 50px;
 }
 
 .jumbotron {

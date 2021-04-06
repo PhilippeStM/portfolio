@@ -12,14 +12,16 @@ const HomeView = () => {
             <section>
                 {/* <img src={Profile} alt="My profile" className={styles.profilePic}></img> */}
                 <section className={styles.bar}>
-                    <h2 className={styles.myStoryH2}>Developer / Problem Solver / Skilled in Customer Service</h2>
+                    <h2 className={styles.myStoryH2}>Web Developer / Problem Solver / Communications Expert</h2>
 
                 </section>
             </section>                    
-            {/* <img src={Profile} alt="My profile" className={styles.profilePic2}></img> */}
-            <h2 className={styles.intro}>Hello, my name is Philippe! I develop websites and web applications specializing in JavaScript and the React framework. </h2>
+
+            <h2 className={styles.intro}>Hi, I'm Philippe! I create websites and web applications specializing in JavaScript and React. I use my experience helping people to serve my client's needs and to work well with others.</h2>            
+            
+            <img src={Profile} alt="My profile" className={styles.profilePic2}></img>
             <p className={styles.aboutMeText}>
-                An challenge is not something to shy away from, but an opportunity for growth, and I really enjoy finding creative ways to overcome them. That's why I became a devloper - there is always something new to learn about oneself and technology. I have many years experience learning operations at all levels, from bottom to top. It is a joy for me to see how all of the moving pieces work together and interact with each other. These are just some of the reasons I enjoy development, and I look forward to bringing your applications to life!
+            A challenge is an opportunity for growth, and I enjoy finding creative ways to overcome them. Development allows me to have those opportunities, as there is always something new to learn about myself. I am always trying to improve my technical skills and I look forward to seeing what we can accomplish together!
                 </p>
 
             <div className={styles.row}>
