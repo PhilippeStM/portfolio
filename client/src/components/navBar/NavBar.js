@@ -10,7 +10,10 @@ const NavBarHome = () => {
 
     return (
         <main>
-            <img src={Logo} alt="logo" className={styles.logo}></img>
+            <a href="/">
+                <img src={Logo} alt="logo" className={styles.logo}></img>
+            </a>
+
             <Navbar collapseOnSelect expand="lg" className={styles.navBar} variant="dark">
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">

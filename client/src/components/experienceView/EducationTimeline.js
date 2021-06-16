@@ -132,7 +132,7 @@ const EducationTimeline = () => {
                     <Card.Body><span className={styles.companyName}>3/2021 to Present</span>
                         <br></br>
                         <br></br>
-                        <span className={styles.jobDescription}>Continuing to learn more about React and work on projects related to front end web development.</span></Card.Body>
+                        <span className={styles.jobDescription}>Continuing to learn more about React and work on projects related to front end web development. Developing portfolio page.</span></Card.Body>
                 </Accordion.Collapse>
             </Card>
 
