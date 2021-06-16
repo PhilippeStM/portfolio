@@ -193,7 +193,7 @@ const ExperienceTimeline = () => {
                     style={{ backgroundColor: newColorCustomerService }}
                 >
                     <Accordion.Toggle as={Card.Header} eventKey="0">
-                        <span className={styles.title}>Customer Service Representative</span>
+                        <span className={styles.title}>Dispatcher</span>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
                         <Card.Body><span className={styles.companyName}>10/2020 to Present - Clean Energy Fuels.</span>

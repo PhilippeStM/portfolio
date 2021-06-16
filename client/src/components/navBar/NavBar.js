@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../../styles/NavBar.module.css';
-import Logo from '../../images/logo.png';
+import Logo from '../../images/logo_fs.png';
 import Navbar from 'react-bootstrap/Navbar';
 import ContactModal from '../contactForm/ContactModal';
 import Nav from 'react-bootstrap/Nav';
