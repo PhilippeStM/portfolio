@@ -3,6 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import styles from '../../styles/ContactForm.module.css';
+import LinkedInLogo from '../../images/linkedInLogo.jpg';
 
 const ContactForm = () => {
     return (
@@ -26,16 +27,14 @@ const ContactForm = () => {
                     <Form.Label>Phone Number (optional)</Form.Label>
                     <Form.Control type="tel" name="message" placeholder="555-555-5555" />
                 </Form.Group>
-
                 <Form.Group as={Col}>
                     <Button className={styles.button} variant="primary" type="submit">Submit</Button>
-
                 </Form.Group>
-
+                <a href="https://www.linkedin.com/in/philippestm/" target="_blank" rel="noreferrer">
+                    <img src={LinkedInLogo} alt="linked in logo" className={styles.logo}></img>
+                </a>
             </Form>
-
         </div>
-
     )
 }
 
